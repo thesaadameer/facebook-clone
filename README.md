@@ -1,6 +1,6 @@
 # Facebook Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/), [Redux Toolkit](https://redux-toolkit.js.org/) template and Firebase(https://firebase.google.com/).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/), [Redux Toolkit](https://redux-toolkit.js.org/) template and [Firebase](https://firebase.google.com/).
 
 ![Facebook Clone Demo](facebookClone.gif)
 
