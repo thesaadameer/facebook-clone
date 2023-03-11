@@ -4,17 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Facebook Clone Demo](facebookClone.gif)
 
--   Post Functionality
--   Responsive Design
--   Firebase authentication SignIn/SignUp
-
 ## Features and Fuctionality
 
--   Login using Email/Password (Firebase Authentication)
--   Create a new post
+-   Post Functionality
+-   Responsive Design
+-   Firebase authenticated SignIn/SignUp
 -   Realtime posts update
 -   Auto authenticate user on refresh
--   Sign Out/Sign In
 
 ## How to build your own..?
 
