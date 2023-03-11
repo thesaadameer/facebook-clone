@@ -4,6 +4,76 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Facebook Clone Demo](facebookClone.gif)
 
+-   Post Functionality
+-   Responsive Design
+
+## Features and Fuctionality
+
+-   Login using Email/Password (Firebase Authentication)
+-   Create a new post
+-   Realtime posts update
+-   Auto authenticate user on refresh
+-   Sign Out/Sign In
+
+## How to build your own..?
+
+1. Clone this repo
+1. Install all the dependencies
+    ```bash
+    npm i
+    ```
+1. Setup Firebase
+
+    - Create Firebase account
+    - Create a new project
+    - Create a web app for that
+    - Copy your config from there
+
+        - Select config option
+        - Paste those config inside src/firebase.js file
+
+    - Setup authentication email/password authentication using Firebase
+
+1. Let's build the optimized version
+
+    ```bash
+    npm run build
+    ```
+
+1. **Now for hosting on Firebase lets config Firebase locally**
+
+    - Install Firebase CLI
+    - Login to Firebase
+
+        ```bash
+        firebase login
+        ```
+
+    - Initialize Firebase
+
+        ```bash
+        firebase init
+        ```
+
+    - Select hosting in the menu
+    - Select your respective project from the list
+    - Select 'build' as your hosting directory and other options as you want
+    - Let's deploy our clone and make it live
+
+        ```bash
+        firebase deploy
+        ```
+
+**That's it our clone is up and running share it now**
+
+## Future Plans
+
+-   Might add more login methods
+-   Post deleting functionality
+-   Add comments and likes on post
+
+**_NOTE: PLEASE LET ME KNOW IF YOU DISCOVERED ANY BUG OR YOU HAVE ANY SUGGESTIONS_**
+
 ## Available Scripts
 
 In the project directory, you can run:
