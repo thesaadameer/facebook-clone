@@ -1,0 +1,87 @@
+
+.header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #d3d3d3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    width: 100%;
+    z-index: 999;
+}
+
+/* LEFT */
+
+.header__leftSearch {
+    display: flex;
+    align-items: center;
+}
+
+.header__leftSearch > img {
+    /* Keeps the aspect ratio */
+    object-fit: contain;  
+    width: 40px;
+    margin: 5px;
+}
+
+.header__leftSearchBar {
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.header__leftSearchBar > input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+
+/* MID */
+
+.header__midPages {
+    display: flex;
+}
+
+
+/* RIGHT */
+
+.header__rightProfile {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__rightProfile > h4:hover {
+    cursor: pointer;
+}
+
+.header__rightProfileAvatar {
+    object-fit: contain;
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.header__rightProfileAvatar:hover {
+    cursor: pointer;
+}
+
+.header__rightProfileIcon {
+    padding: 15px !important;
+    background-color: whitesmoke !important;
+    object-fit: contain;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.header__rightProfileIcon:hover {
+    color: black;
+}

@@ -1,0 +1,27 @@
+
+.post {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.post__person {
+    display: flex;
+    align-items: center;
+}
+
+.post__personAvatar {
+    margin: 10px;
+}
+
+.post__content {
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.post__reacts {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

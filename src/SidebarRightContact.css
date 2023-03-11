@@ -1,0 +1,15 @@
+
+.sidebarRight__contact {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sidebarRight__contactAvatar {
+    align-items: center;
+}
+
+.sidebarRight__contactName {
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}

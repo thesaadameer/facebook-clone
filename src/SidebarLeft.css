@@ -1,0 +1,22 @@
+
+.sidebarLeft {
+    position: sticky;
+    top: 80px;
+    flex: 0.25;
+    height: fit-content;
+    margin-left: 10px;
+}
+
+.sidebarLeft__avatar {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    
+}
+
+.sidebarLeftOptions__avatarImg {
+    object-fit: contain;
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 10px;
+}

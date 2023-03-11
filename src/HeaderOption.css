@@ -1,0 +1,15 @@
+.headerOption {
+    margin-right: 40px;
+    color: gray;
+}
+
+.headerOption:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.headerOption__icon {
+    object-fit: contain;
+    width: 30px !important;
+    height: 30px !important;
+}

@@ -1,0 +1,24 @@
+
+.sidebarLeftOptions {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+
+.sidebarLeftOptions__icons {
+    color: #4274df;
+    object-fit: contain;
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 10px;
+}
+
+.sidebarLeftOptions__icons:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.sidebarLeftOptions > h4 {
+    cursor: pointer;
+}
+
