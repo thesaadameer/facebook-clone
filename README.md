@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 -   Post Functionality
 -   Responsive Design
+-   Firebase authentication SignIn/SignUp
 
 ## Features and Fuctionality
 
